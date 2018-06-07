@@ -13,8 +13,8 @@ class MyComponent extends Component {
 	async componentDidMount() {
 		const response = await fetch('/message');
 		const responseBody = await response.json();
-		console.log("message", responseBody.message);
 		const {message} = responseBody;
+
 		this.setState({message});
 	}
 
