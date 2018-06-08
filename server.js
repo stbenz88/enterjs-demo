@@ -5,7 +5,7 @@ app.get('/message', (req, res) => {
 	res.send({message: 'Hello enterJS'});
 });
 
-app.listen(3001, () => {
+app.listen(process.env.PORT || 3001, () => {
 	console.log('App listening on port 3001!');
 });
 
