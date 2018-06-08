@@ -8,3 +8,5 @@ app.get('/message', (req, res) => {
 app.listen(3001, () => {
 	console.log('App listening on port 3001!');
 });
+
+app.use(express.static('build'));
