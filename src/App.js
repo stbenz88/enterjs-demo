@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import MyComponent from './MyComponent';
 import logo from './logo.svg';
 import './App.css';
 
@@ -9,10 +8,8 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Willkommen auf der enterJS 2018</h1>
+          <h1 className="App-title">Welcome to React</h1>
         </header>
-        <MyComponent />
-
       </div>
     );
   }
